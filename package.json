@@ -19,5 +19,9 @@
   "homepage": "https://github.com/quokka-eating-carrots/typescript-study#readme",
   "dependencies": {
     "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "react": "^18.2.0"
   }
 }
