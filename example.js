@@ -3,12 +3,11 @@ class Person {
     constructor(_name, age) {
         this._name = _name;
         this.age = age;
+        this.name = 'Mark';
+        this.country = 'Korea';
     }
-    get name() {
-        return this._name + ' Lee';
-    }
-    set name(n) {
-        this._name = n;
+    hello() {
+        this.country = 'USA';
     }
 }
 const p1 = new Person('Mark', 39);

@@ -1,14 +1,13 @@
 class Person {
+  public readonly name: string = 'Mark'
+  private readonly country: string;
+
   public constructor(private _name: string, private age: number) {
-
+    this.country = 'Korea'
   }
 
-  get name() {
-    return this._name + ' Lee';
-  }
-
-  set name(n: string) {
-    this._name = n;
+  hello() {
+    this.country = 'USA'
   }
 }
 
